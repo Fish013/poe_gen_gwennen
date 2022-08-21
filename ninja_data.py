@@ -189,8 +189,8 @@ def scrape_ninja():
 	authority_set = set()  # basetype, name, icon, key
 	missing_data = {}
 	for l_str, league in [
-		('sct', 'Sentinel'),
-		('hct', 'Hardcore Sentinel'),
+		('sct', 'Kalandra'),
+		('hct', 'Hardcore Kalandra'),
 		('sc', 'Standard'),
 		('hc', 'Hardcore')
 	]:
